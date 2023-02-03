@@ -370,13 +370,13 @@ height: 30px; /* adjust as needed for mobile */
 @media  (max-width: 480px) {
   #new-section2 .about-nerds {
     position: absolute;   
-    font-size: 2em;
+    font-size: 3.5em;
     text-align: center;
     bottom: 190;
     width: 100%; }
   #new-section2 p {
     position: absolute;
-    font-size: 0.85em;
+    font-size: 1em;
     text-align: center;
     bottom: 3;
     width: 100%;
