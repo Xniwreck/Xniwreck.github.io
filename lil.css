@@ -366,17 +366,16 @@ height: 30px; /* adjust as needed for mobile */
   }
 }
 
-
 @media  (max-width: 480px) {
   #new-section2 .about-nerds {
     position: absolute;   
     font-size: 3.5em;
     text-align: center;
-    bottom: 190;
+    bottom: 200;
     width: 100%; }
   #new-section2 p {
     position: absolute;
-    font-size: 1em;
+    font-size: 0.95em;
     text-align: center;
     bottom: 3;
     width: 100%;
@@ -400,9 +399,10 @@ height: 20px; /* adjust as needed for mobile */
 
 @media  (max-width: 480px) {
   .genz {
-      font-size: 0.8rem; /* adjust as needed */
+      font-size: 1rem; /* adjust as needed */
   }
 }
+
 
 
 
