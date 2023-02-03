@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200; 400; 700');
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Poppins:200; 400; 700') format('woff2'),
+       url('https://fonts.googleapis.com/css?family=Poppins:200; 400; 700') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
 :root {
     --dark: rgb(0, 0, 0);
 
@@ -78,7 +95,7 @@ body {
 }
 
 #new-section {
-    height: 110vh; /* adjust to desired height */
+    height: 120vh; /* adjust to desired height */
     display: grid;
     align-items: center;
     justify-content: center;
@@ -193,7 +210,7 @@ body {
 
 #new-section2 p {
   font-family: 'Poppins', sans-serif;
-  font-size: 30px;
+  font-size: 2vw;
 }
 
 .genz {
@@ -225,7 +242,7 @@ footer {
 
 
 
-@media  (max-width: 100px)
+@media  (max-width: 600px)
 {  #footer p {
   padding: 5px;
   font-size: 5px;
@@ -234,31 +251,31 @@ footer {
 
 
 
-    @media only screen and (max-width: 900px) {
-      #new-section {
-        width: 100%;
-        height: 50%;
+@media  (max-width: 900px) {
+  #new-section {
+   width: 100%;
+   height: 55%;
       }
     }
     
-    @media only screen and (max-width: 900px) {
-      #new-section2 {
-        width: 100%;
-        height: 50%;
-      }
+@media  (max-width: 900px) {
+  #new-section2 {
+  width: 100%;
+  height: 60%;
     }
+  }
     
     
-    @media only screen and (max-width: 900px) {
+    @media  (max-width: 900px) {
       #new-section2 .about-nerds {
         position: absolute;   
-        font-size: 5em;
+        font-size: 15vw;
         text-align: center;
         bottom: 225;
         width: 100%; }
       #new-section2 p {
         position: absolute;
-        font-size: 1.2em;
+        font-size: 3vw;
         text-align: center;
         bottom: 50;
         width: 100%;
@@ -280,31 +297,31 @@ footer {
 
 
 
-@media only screen and (max-width: 600px) {
+@media  (max-width: 767px) {
   #new-section {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 767px) {
   #new-section2 {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
 }
 
 
-@media only screen and (max-width: 600px) {
+@media  (max-width: 767px) {
   #new-section2 .about-nerds {
     position: absolute;   
-    font-size: 3em;
+    font-size: 15vw;
     text-align: center;
-    bottom: 300;
+    bottom: 250;
     width: 100%; }
   #new-section2 p {
     position: absolute;
-    font-size: 1em;
+    font-size: 3vw;
     text-align: center;
     bottom: 50;
     width: 100%;
@@ -314,7 +331,7 @@ footer {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 .side-new img {
 width: 30px; /* adjust as needed for mobile */
 height: 30px; /* adjust as needed for mobile */
@@ -326,31 +343,31 @@ height: 30px; /* adjust as needed for mobile */
 
 
 
-@media screen and (max-width: 600px) {
+@media  (max-width: 767px) {
   .genz {
-      font-size: 1rem; /* adjust as needed */
+      font-size: 5vw; /* adjust as needed */
   }
 }
 
 
 
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   #new-section {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media  (max-width: 480px) {
   #new-section2 {
     width: 100%;
-    height: 50%;
+    height: 50vh;
   }
 }
 
 
-@media only screen and (max-width: 480px) {
+@media  (max-width: 480px) {
   #new-section2 .about-nerds {
     position: absolute;   
     font-size: 2em;
@@ -381,7 +398,7 @@ height: 20px; /* adjust as needed for mobile */
 
 
 
-@media screen and (max-width: 480px) {
+@media  (max-width: 480px) {
   .genz {
       font-size: 0.8rem; /* adjust as needed */
   }
@@ -390,14 +407,14 @@ height: 20px; /* adjust as needed for mobile */
 
 
 
-@media only screen and (max-width: 6px) {
+@media (max-width: 6px) {
   #new-section {
     width: 100%;
     height: 50%;
   }
 }
 
-@media only screen and (max-width: 6px) {
+@media  (max-width: 6px) {
   #new-section2 {
     width: 100%;
     height: 50%;
@@ -405,7 +422,7 @@ height: 20px; /* adjust as needed for mobile */
 }
 
 
-@media only screen and (max-width: 6px) {
+@media  (max-width: 6px) {
   #new-section2 .about-nerds {
     position: absolute;   
     font-size: 1em;
@@ -436,7 +453,7 @@ height: 30px; /* adjust as needed for mobile */
 
 
 
-@media screen and (max-width: 60px) {
+@media  (max-width: 60px) {
   .genz {
       font-size: 0.3rem; /* adjust as needed */
   }
