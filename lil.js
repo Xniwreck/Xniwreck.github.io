@@ -9,7 +9,7 @@ left.addEventListener("animationend", () => {
   setTimeout(() => {
     document.onmousemove = e => {
       const cursorX = e.clientX;
-      if (!mouseMoveActivated && cursorX >= (window.innerWidth * 0.66) - 50 && cursorX <= (window.innerWidth * 0.66) + 50) {
+      if (!mouseMoveActivated && cursorX >= (window.innerWidth * 0.66) - 15 && cursorX <= (window.innerWidth * 0.66) + 15) {
         mouseMoveActivated = true;
         handleMove(e);
       } else if (mouseMoveActivated) {
