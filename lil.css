@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200; 400; 700');
-
-@font-face {
-  font-family: 'Poppins', sans-serif;
-  src: url('https://fonts.googleapis.com/css?family=Poppins:200; 400; 700') format('woff2'),
-       url('https://fonts.googleapis.com/css?family=Poppins:200; 400; 700') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Poppins:200; 400; 700&dispay=block');
 
 body {
   font-family: 'Poppins', sans-serif;
