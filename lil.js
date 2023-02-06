@@ -9,7 +9,7 @@ left.addEventListener("animationend", () => {
   setTimeout(() => {
     document.onmousemove = e => {
       const cursorX = e.clientX;
-      if (!mouseMoveActivated && cursorX >= (window.innerWidth * 0.66) - 15 && cursorX <= (window.innerWidth * 0.66) + 15) {
+      if (!mouseMoveActivated && cursorX >= (window.innerWidth * 0.66) - 50 && cursorX <= (window.innerWidth * 0.66) + 50) {
         mouseMoveActivated = true;
         handleMove(e);
       } else if (mouseMoveActivated) {
@@ -58,3 +58,20 @@ const observer2 = new IntersectionObserver((entries) => {
 
 observer2.observe(refuse);
 
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxavnE8fpEAXluHrDI84eHvSzDKT_tMFPI4e89WefccPzDpy9a1STKwFvcl8tAjdMWp2Q/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      msg.innerHTML = "See you in the inbox"
+      setTimeout(function(){
+        msg.innerHTML = ""
+      },5000)
+      form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
