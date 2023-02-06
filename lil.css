@@ -34,7 +34,7 @@ body {
 .side .title {
     
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 14vw;
     margin: 0px 28vw;
     width: 100vw;
@@ -43,9 +43,9 @@ body {
 .side .titletwo {
   
   font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 14vw;
-  margin: 0px 2.7vw;
+  margin: 0px 3vw;
   width: 100vw;
 }
   
