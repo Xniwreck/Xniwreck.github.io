@@ -465,7 +465,6 @@ footer {
 
   @media (max-width: 460px) {
     .subscription-form {
-      font-size: 2em;
       width: 50%;
       height: 10%;
       top: 29%;
