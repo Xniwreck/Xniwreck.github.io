@@ -277,7 +277,7 @@ body {
 
 .subscription-form input[type="email"] {
   padding: 1em;
-  font-size: 18px;
+  font-size: 15px;
   width: 100%;
   border: none;
   background-color: transparent;
@@ -465,6 +465,7 @@ footer {
 
   @media (max-width: 460px) {
     .subscription-form {
+      font-size: 2em;
       width: 50%;
       height: 10%;
       top: 29%;
@@ -690,6 +691,7 @@ height: 30px; /* adjust as needed for mobile */
   }
 
 }
+
 
 
 
