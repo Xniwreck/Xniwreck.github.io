@@ -201,9 +201,9 @@ body {
 }
 
 .genz {
-  color: #f5af19;
   font-family: 'Poppins', sans-serif;
-  font-size: 2.2rem;
+  font-weight: 300;
+  font-size: 3vw;
   text-align: center;
   background: linear-gradient(to right, #f5af19, #f12711);
   background-clip: padding-box; /* standard property */
@@ -561,9 +561,9 @@ height: 30px; /* adjust as needed for mobile */
 
 
 
-@media  (max-width: 767px) {
+@media  (max-width: 900px) {
   .genz {
-      font-size: 5vw; /* adjust as needed */
+      font-size: 3.4vw; /* adjust as needed */
   }
 }
 
@@ -618,7 +618,7 @@ height: 20px; /* adjust as needed for mobile */
 
 @media  (max-width: 480px) {
   .genz {
-      font-size: 1rem; /* adjust as needed */
+      font-size: 5vw; /* adjust as needed */
   }
 }
 
@@ -690,7 +690,6 @@ height: 30px; /* adjust as needed for mobile */
   }
 
 }
-
 
 
 
