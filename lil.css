@@ -147,26 +147,6 @@ body {
   display: inline-block;
 }
 
-#refuse::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 0%;
-  height: 1vw;
-  background: linear-gradient(to right, #f5af19, #f12711);
-  -webkit-text-fill-color: transparent;
-  animation: line-animation 10s ease-in-out forwards;
-}
-
-@keyframes line-animation {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
-}
 
 
 
